@@ -27,7 +27,7 @@ async function getRecentMovies() {
       div.addEventListener('click', () => {
         // 포스터 id 값을 selected_movie.html로 전달하는 코드
         const posterId = movie.id;
-        window.location.href = `selected_movie.html?posterId=${posterId}`;
+        window.location.href = `/html/selected_movie.html?posterId=${posterId}`;
       });
     }
   } else {
