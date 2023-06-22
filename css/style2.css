@@ -18,6 +18,7 @@ h1 {
     padding-left: 40px;
     float: left;
     margin-top: 0px;
+    text-shadow: 1px 1px 10px black;
 }
 
 a {
