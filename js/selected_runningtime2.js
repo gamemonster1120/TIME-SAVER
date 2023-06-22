@@ -2,8 +2,8 @@
 const apiKey = "819c5ddc63e5a26fee42ba51760c998c";
 
 // 러닝타임 범위 지정 (분 단위)
-const minRuntime = 61;
-const maxRuntime = 120;
+const minRuntime = 60;
+const maxRuntime = 119;
 
 // API 요청 URL
 const url = `https://api.themoviedb.org/3/discover/movie?api_key=${apiKey}&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&with_runtime.gte=${minRuntime}&with_runtime.lte=${maxRuntime}`;
