@@ -2,7 +2,7 @@
 const apiKey = "819c5ddc63e5a26fee42ba51760c998c";
 
 // 러닝타임 범위 지정 (분 단위)
-const minRuntime = 180;
+const minRuntime = 181;
 const maxRuntime = 240;
 
 // API 요청 URL
